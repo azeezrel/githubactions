@@ -62,7 +62,7 @@ const TOPIC_1 = {
         { key: "A", text: " when the workflow jobs must be run on Windows 10" },
         { key: "B", text: "when jobs must run for longer than 6 hours" },
         { key: "C", text: "when a workflow job needs to install software from the local network." },
-        { key: "D", text: "when GitHub Actions minutes must be used for the workflow runs" }
+        { key: "D", text: "when GitHub Actions minutes must be used for the workflow runs" },
         { key: "E", text: ". when you want to use macOS runners" }
       ],
       answer: ["B", "C"]
@@ -138,7 +138,7 @@ const TOPIC_2 = {
         { key: "A", text: "an .action extension file in the repository" },
         { key: "B", text: "a published Docker container image on Docker Hub" },
         { key: "C", text: "a public NPM registry" },
-        { key: "D", text: "the runs-on: keyword of a workflow file" }
+        { key: "D", text: "the runs-on: keyword of a workflow file" },
         { key: "C", text: "the repository’s Secrets settings page" },
         { key: "C", text: "a separate public repository" },
         { key: "C", text: "the same repository as the workflow" }
@@ -164,9 +164,9 @@ const TOPIC_2 = {
         { key: "A", text: "top level." },
         { key: "B", text: "step level." },
         { key: "C", text: "default level." },
-        { key: "D", text: "runner level." }
+        { key: "D", text: "runner level." },
          { key: "E", text: "job level." },
-          { key: "F", text: "stage level." },
+          { key: "F", text: "stage level." }
       ],
       answer: ["A", "B", "E"]
     },
@@ -391,8 +391,8 @@ const TOPIC_3 ={
     { key: "F", text: "a specific step within a job, by using jobs..steps[*].env" }
   ],
   answer: ["A", "D", "F"]
+  },
 
-},
     {
   id: "t2-q26",
   question: "Which of the following commands will set the $FOO environment variable within a script, so that it may be used in subsequent workflow job steps?",
@@ -544,8 +544,10 @@ const TOPIC_3 ={
   ],
   answer: "C"
 },
+  ]
+};
 
-const TOPIC_1 ={
+const TOPIC_4 ={
   topicId: "topic-4",
   topicName: "Prompt Crafting and Prompt Engineering",
   questions: [
@@ -596,7 +598,7 @@ const TOPIC_1 ={
     }
   ]
 };
-const TOPIC_1 ={
+const TOPIC_5 ={
   topicId: "topic-5",
   topicName: "Developer Use Cases for AI",
   questions: [
@@ -712,8 +714,9 @@ const TOPIC_1 ={
   ],
   answer: ["B", "D"]
 },
-
-const TOPIC_1 = {
+  ]
+};
+const TOPIC_6 = {
     // Topic 6 - Testing with GitHub Copilot
   topicId: "topic-6",
   topicName: "Testing with GitHub Copilot",
@@ -775,7 +778,8 @@ const TOPIC_1 = {
   ],
   answer: ["A", "C"]
 },
-
+  ]
+};
 const TOPIC_7 = {
 
 // Topic 7 - Privacy fundamentals and content exclusions
@@ -1071,6 +1075,8 @@ const TOPIC_7 = {
     { key: "D", text: "Create a workflow that includes the actions/debug-javascript action." }
   ],
   answer: ["A"]
+},
+  ]
 };
 
 
